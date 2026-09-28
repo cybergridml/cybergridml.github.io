@@ -102,12 +102,12 @@ The release workflow builds the application JAR and publishes it as a GitHub Rel
 
 Useful resources will progressively be added to the organization and project repositories, including:
 
-* setup instructions;
-* modeling guidelines;
-* CyberGridML profile documentation;
-* example models;
-* architecture notes;
-* release and deployment instructions.
+* [Setup instructions](setup-instructions.md)
+* [Modeling guidelines](Modeling-guidelines.md)
+* [CyberGridML profile documentation](CyberGridML-profile-documentation.md)
+* [Example models](Example-models.md)
+* [architecture notes](architecture-notes.md)
+* [Release and deployment instructions](release-and-deployment-instructions.md)
 
 For now, the best starting point is the main application repository and its source code.
 
