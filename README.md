@@ -11,7 +11,7 @@ CyberGridML is centered around a domain-specific modeling environment for cyber-
 The project currently focuses on:
 
 * **CFA — Control Function Architecture**
-  Modeling grid elements, substations, buses, controllers, loads, generators, batteries, lines, and related control structures.
+  Modeling grid elements such as substations, buses, loads, generators, batteries, lines, and related control structures.
 
 * **CRA — Computing Resource Architecture**
   Modeling computing resources, software resources, communication media, redundancy clusters, allocations, and cyber infrastructure links.
@@ -28,11 +28,11 @@ The main application is built with **Java**, **Spring Boot**, **SysON**, and **E
 
 Our main repository is:
 
-* **cybergridmodel** — the CyberGridML modeling application and profile implementation.
+* **cybergrid-modeller** — the CyberGridML modeling application and profile implementation.
 
 It includes:
 
-* the CyberGridML SysML library;
+* the CyberGridML SysML v2 library;
 * custom SysON/Sirius Web diagram descriptions;
 * project templates for CyberGridML models;
 * domain-specific nodes, edges, properties, and services;
@@ -67,7 +67,7 @@ Then commit your changes and open a pull request.
 
 CyberGridML currently relies on:
 
-* **Java 17**
+* **Java 21**
 * **Spring Boot**
 * **SysON**
 * **Eclipse Sirius Web**
@@ -100,16 +100,14 @@ The release workflow builds the application JAR and publishes it as a GitHub Rel
 
 ## 👩‍💻 Useful resources
 
-Useful resources will progressively be added to the organization and project repositories, including:
+Useful resources for users and developers are available in the **documentation** repository:
 
 * [Setup instructions](setup-instructions.md)
 * [Modeling guidelines](Modeling-guidelines.md)
 * [CyberGridML profile documentation](CyberGridML-profile-documentation.md)
 * [Example models](Example-models.md)
-* [architecture notes](architecture-notes.md)
+* [Architecture notes](architecture-notes.md)
 * [Release and deployment instructions](release-and-deployment-instructions.md)
-
-For now, the best starting point is the main application repository and its source code.
 
 ## 🍿 Fun facts
 
