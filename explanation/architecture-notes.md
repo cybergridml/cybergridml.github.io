@@ -1,3 +1,9 @@
+---
+title: Architecture Notes
+parent: Explanation
+nav_order: 5
+---
+
 ## Why SysON?
 
 CyberGridML uses **SysON** as the modeling environment for creating and visualizing SysML v2 models through a web-based interface.
@@ -25,4 +31,4 @@ In CyberGridML, **SysML v2 defines the modeling language**, while **SysON provid
 
 
 
-[← Back to the main documentation](README.md)
+[← Back to the main documentation](../index.md)

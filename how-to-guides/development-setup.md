@@ -1,3 +1,9 @@
+---
+title: Development Environment Setup
+parent: How-to Guides
+nav_order: 2
+---
+
 # Prerequisites
 The following tools must be installed:
 * docker engine
@@ -106,4 +112,4 @@ To start it:
 npm start
 ```
 
-[← Back to the main documentation](README.md)
+[← Back to the main documentation](../index.md)

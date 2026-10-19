@@ -1,4 +1,8 @@
-## Concepts
+---
+title: Concepts
+parent: Explanation
+nav_order: 2
+---
 
 A power grid is an infrastructure that transmits electrical energy from generation sites to consumption sites. At the most basic level of analysis, it can be represented as a directed graph consisting of the following elements :
 *	Power lines (graph edges) — These are conductors that carry electrical energy from one point to another. Power lines can be overhead, underground, or submarine. A power line is characterized by its operating voltage, frequency response, leakage currents, and energy loss due to the Joule effect. These characteristics vary depending on the technologies used and climatic conditions (temperature, wind). In addition, each power line has a limit on its mechanical and thermal resistance.
@@ -13,6 +17,6 @@ The goal of the Cybergrid project is to focus on the control and communication a
 
 In a similar way, the Cybergrid DSML provides an architectural model at a rather high level of abstraction (functional architecture). It corresponds to the function level in the SGAM architectural framework. It could be enriched to provide more details regarding the lower levels of the SGAM framework, such as the component layer, corresponding to the physical aspects of communication.
 
-![SGAM architecture network](sgam.png)
+![SGAM architecture network](images/sgam.png)
 
 

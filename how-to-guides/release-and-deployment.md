@@ -1,4 +1,8 @@
-# Release and Deployment Instructions
+---
+title: Release and Deployment Instructions
+parent: How-to Guides
+nav_order: 4
+---
 
 ## Overview
 
@@ -155,4 +159,4 @@ docker compose ps
 
 Database compatibility should be checked before rolling back to an older application version.
 
-[← Back to the main documentation](README.md)
+[← Back to the main documentation](../index.md)

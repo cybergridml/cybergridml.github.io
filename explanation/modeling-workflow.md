@@ -1,4 +1,8 @@
-# Modeling Workflow
+---
+title: Modeling Workflow
+parent: Explanation
+nav_order: 4
+---
 
 To obtain the description of a control architecture of the electrical grid, the user has to carry out several steps :
 * [Create a Control Functional Architecture](#control-functional-architecture-creation)
@@ -20,9 +24,9 @@ We assume that the power grid topology, and more generally the details about the
 
 Once the physical elements of the power grid are defined, the user can model the controllers and their relationship in order to devise some principle of control, and link them to the relevant parts of the power grid.
 
-![alt text](image.png)
+![alt text](images/modeling-workflow.png)
 
-Once the relevant elements of the power grid are modeled, the user can model the [CFA](../Principles/metamodels.md#control-functional-architecture). 
+Once the relevant elements of the power grid are modeled, the user can model the [CFA](modeling-language.md#control-functional-architecture). 
 
 **Initial elements**
 The user must create a MainGrid and its associated controller called a CentralController. The MainGrid can then be filled with Substations, and below, Buses. These can be imported via an external file, as explained above. 
@@ -36,7 +40,7 @@ For each controller (central, zonal or local), the user can specify a behavior.
 
 ## Control Resources Architecture Creation
 
-The user can then create a CRA (CRA = Control Resources Architecture). A CRA defines the material resources that are involved in the control implementation : [computing resources](../Principles/metamodels.md#computing-resources) as well as [communicating resources](../Principles/metamodels.md#communication-architecture): 
+The user can then create a CRA (CRA = Control Resources Architecture). A CRA defines the material resources that are involved in the control implementation : [computing resources](modeling-language.md#computing-resources) as well as [communicating resources](modeling-language.md#communication-architecture): 
 * A ComputingResource is a generic representation for any type of computing device, such as a data center. 
 * A SoftwareResource is a generic representation for any type of software entity, typically the implementation of a controller.
 * A CommunicationMedia is a generic representation for any means of communication. The user indicates capacity and latency of this entity.
@@ -59,5 +63,5 @@ The communication hazards are optional, but they allow to represent scenarios of
 
 Communication hazards are described via the selection of a component, the definition of a failure percentage and the period during which this failure occurs.
 
-## [User Interface](../Modeling-guidelines.md)
-CybergridML allows to represent the concepts of the [metamodel](../Principles/metamodels.md), while following this workflow. 
+## [User Interface](../how-to-guides/modeling-guidelines.md)
+CybergridML allows to represent the concepts of the [metamodel](modeling-language.md), while following this workflow. 

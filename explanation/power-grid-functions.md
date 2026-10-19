@@ -1,4 +1,8 @@
-## Power Grid Functions
+---
+title: Power Grid Functions
+parent: Explanation
+nav_order: 1
+---
 
 CyberGridML provides a modeling language to reason about electrical grids, their control functions, and the infrastructure implementing those. 
 This document provides an overview of power grid functions for non-specialists, and gives some insights as to what this project aims to do.

@@ -1,4 +1,8 @@
-# Modeling Language
+---
+title: Modeling Language
+parent: Explanation
+nav_order: 3
+---
 
 The Cybergrid DSML has three modeling levels : 
 *	CFA — [Control Function Architecture](#control-functional-architecture) (application level), allowing to model grid elements and control principles.
@@ -8,7 +12,7 @@ The Cybergrid DSML has three modeling levels :
 
 The control functional architecture defines a number of electrical equipments and associated controllers so as to represent the desired control architecture. This is possible through the use of a domain-specific language.
 
-![Control Functional Architecture](cfa.png)
+![Control Functional Architecture](images/cfa.png)
 
 Three control levels can be defined in the CFA :
 *	Central control (CC), associated to the  main power grid, represents national-level control, which is responsible for the overall strategy and complex forecasting calculations, and provides the lower levels of controllers with setpoints for optimal operation. The national level has two roles : on one hand, it ensures network balance by estimating future production and consumption over time and, on another hand, it manages electrical flow. At the time being, these roles are mainly carried out manually.
@@ -44,7 +48,7 @@ To accurately represent the behavior of controllers, we have to model the respon
 
 Once computing resources are defined, it is necessary to link software resources to computing resources through an allocation concept.
 
-![Allocation concept](allocation.png)
+![Allocation concept](images/allocation.png)
 
 
 ## Link between the functional and resources architecture

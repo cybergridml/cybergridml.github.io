@@ -1,3 +1,9 @@
+---
+title: Customization Guide
+parent: How-to Guides
+nav_order: 3
+---
+
 # Cybergrid Modeler – Customization Guide
 
 ##  Overview

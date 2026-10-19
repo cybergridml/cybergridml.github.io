@@ -1,0 +1,27 @@
+title: CyberGridML Documentation
+description: Documentation of the CyberGridML modeling language and of its web-based modeler.
+remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+search_enabled: true
+heading_anchors: true
+back_to_top: true
+back_to_top_text: "Back to top"
+aux_links:
+  "CyberGridML editor on GitHub":
+    - "https://github.com/cybergridml/cybergridmodel"
+aux_links_new_tab: true
+exclude:
+  - README.md
+  - LICENSE
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
