@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="10 4 172 172" role="img" aria-labelledby="title desc">
+<title id="title">CyberGridML symbol</title>
+<desc id="desc">Minimal isometric three-layer architecture with an interconnected electrical/control network: functional, communication and execution layers.</desc>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Three architecture planes: functional / communications / execution -->
+  <path d="M30 55 L96 19 L162 55 L96 91 Z" stroke="#172848" stroke-width="10"/>
+  <path d="M30 91 L96 127 L162 91" stroke="#172848" stroke-width="10"/>
+  <path d="M30 128 L96 164 L162 128" stroke="#172848" stroke-width="10"/>
+  <!-- Simplified interconnected cyber-physical assets on the upper plane -->
+  <path d="M63 55 L96 37 L129 55" stroke="#172848" stroke-width="7"/>
+</g>
+<g fill="#172848"><circle cx="63" cy="55" r="7"/><circle cx="96" cy="37" r="7"/><circle cx="129" cy="55" r="7"/></g>
+</svg>

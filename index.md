@@ -4,6 +4,10 @@ nav_order: 1
 permalink: /
 ---
 
+<p align="center">
+  <img src="{{ '/images/cybergridml-logo.svg' | relative_url }}" alt="CyberGridML logo" width="420">
+</p>
+
 # CyberGridML Documentation
 
 **CyberGridML** aims to provide a modeling language and associated tooling targeting cyber-physical power grid systems, using **SysML v2**, **CyberGridML concepts**, and web-based engineering tools.
@@ -27,7 +31,7 @@ This documentation is organized in four sections, following the [Diátaxis](http
 - **[Explanation](explanation/)** — the background: power grid functions, the modeling language, the modeling workflow and design choices.
 - **[Reference](reference/)** — the precise description of the CyberGridML profile.
 
-[Getting help](getting-help.md) explains where to ask questions and report problems.
+[Getting help](getting-help.md) explains where to ask questions and report problems, and [Contributing](contributing.md) explains how to take part in the project.
 
 ## Important links
 
