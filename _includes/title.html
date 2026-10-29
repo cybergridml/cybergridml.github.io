@@ -1,0 +1,8 @@
+{%- comment -%}
+  Overrides the just-the-docs title.html: when site.logo is set, the theme
+  shows the logo instead of the title. Here the logo is shown next to the title.
+{%- endcomment -%}
+{%- if site.logo -%}
+  <img src="{{ site.logo | relative_url }}" alt="" class="site-logo">
+{%- endif -%}
+{{ site.title | default: site.github.repository_name }}

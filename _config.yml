@@ -1,4 +1,5 @@
 title: CyberGridML Documentation
+logo: "/images/cybergridml-icon.svg"
 description: Documentation of the CyberGridML modeling language and of its web-based modeler.
 remote_theme: just-the-docs/just-the-docs
 plugins:
