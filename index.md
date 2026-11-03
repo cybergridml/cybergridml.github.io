@@ -36,4 +36,4 @@ This documentation is organized in four sections, following the [Diátaxis](http
 ## Important links
 
 - [CyberGridML editor](https://github.com/cybergridml/cybergridmodel) — source code of the web-based modeler (frontend and backend)
-- [This documentation](https://github.com/aklira/documentation) — source of these pages
+- [This documentation](https://github.com/cybergridml/cybergridml.github.io) — source of these pages

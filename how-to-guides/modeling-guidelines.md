@@ -223,5 +223,3 @@ In addition to software resources, some computing resources are also created aut
 
 *CRA view after XIIDM import*
 
-
-[← Back to the main documentation](../index.md)

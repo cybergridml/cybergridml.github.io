@@ -112,4 +112,3 @@ To start it:
 npm start
 ```
 
-[← Back to the main documentation](../index.md)

@@ -158,5 +158,3 @@ docker compose ps
 ```
 
 Database compatibility should be checked before rolling back to an older application version.
-
-[← Back to the main documentation](../index.md)

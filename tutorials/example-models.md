@@ -69,5 +69,3 @@ Finally, the graphical view is shown here
   <em>Figure 2 —  CFA graphical view</em>
 </p>
 
-
-[← Back to the main documentation](../index.md)
